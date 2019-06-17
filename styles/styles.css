@@ -21,12 +21,8 @@
 }
 
 .header{
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(73, 71, 63, 0.6);
-    position: absolute;
-    width: 100%;
+    background: gray url("../images/Sections background/section-1(header).jpg") no-repeat fixed bottom;
+    background-size: cover;
     font-family: Montserrat-Bold, sans-serif;
 }
 .headContainer {
@@ -36,6 +32,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.headBox {
+    background: rgba(73, 71, 63, 0.60);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .7);
 }
 .navMenu {
     display: flex;
@@ -146,8 +146,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: gray url("../images/Sections background/section-1(header).jpg") no-repeat fixed bottom;
-    background-size: cover;
+
 }
 .titleSecOne {
     font-size: 35px;
